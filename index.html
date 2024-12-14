@@ -40,18 +40,19 @@
         .button-grid {
             /* display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-            gap: 3rem;
+            gap: 20px;
             padding: 1rem;
             display: flex;
             flex-direction: row;
             justify-content: center;
+            flex-wrap: wrap;
         }
 
         .button-wrapper {
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 150px;
+            /* min-height: 150px; */
         }
 
         /* Gradient Border Button */
@@ -342,7 +343,7 @@
             }
 
             .button-wrapper {
-                min-height: 120px;
+                /* min-height: 120px; */
             }
         }
     </style>
@@ -353,12 +354,12 @@
         <h1>Frontend Tasks</h1>
 
         <div class="button-grid">
-                        <!-- command -->
-                        <div class="button-wrapper">
-                            <button class="gradient-border-button">
-                                <a href="./gitComaand/index.html">git Command</a>
-                            </button>
-                        </div>
+            <!-- command -->
+            <div class="button-wrapper">
+                <button class="gradient-border-button">
+                    <a href="./gitComaand/index.html">git Command</a>
+                </button>
+            </div>
             <!-- Profile card -->
             <div class="button-wrapper">
                 <button class="gradient-border-button">
@@ -385,7 +386,7 @@
                 <button class="gradient-border-button">
                     <a href="./login form/index.html">Login Form</a>
                 </button>
-            </div> 
+            </div>
             <!-- weblayout -->
             <div class="button-wrapper">
                 <button class="gradient-border-button">
@@ -393,13 +394,13 @@
                 </button>
             </div>
 
-                        <!-- weblayout -->
-                        <div class="button-wrapper">
-                            <button class="gradient-border-button">
-                                <a href="">test</a>
-                            </button>
-                        </div>
-            
+            <!-- weblayout -->
+            <div class="button-wrapper">
+                <button class="gradient-border-button">
+                    <a href="">test</a>
+                </button>
+            </div>
+
         </div>
     </div>
 </body>
